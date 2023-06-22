@@ -1,0 +1,111 @@
+body {
+    font-family:monospace;
+    background-color: #EEE3CB;
+    color: #fdfdfd;
+    display:flex;
+    flex-direction:row;
+    height:580px;
+    margin:50px 20px;
+    border-radius: 45px;
+    background-image: url('https://images.pexels.com/photos/1366942/pexels-photo-1366942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.header {
+    background-color: #5D5B6A ;
+    font-size:larger;
+    font-weight:bold;
+    text-align:initial;
+    padding: 50px;
+    background-image: url('https://images.pexels.com/photos/776113/pexels-photo-776113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.label1 {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: ;
+    color: #ffffff;
+}
+
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color:solid #c2bcbc;;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 100px;
+    text-align:center;
+    font-family:'Courier New';
+    font-weight: bold;
+    margin: 5px;
+}
+
+#buttons:focus {
+    background:solid #bebbc2;
+}
+
+button:active {
+    transform: translateY(1px);
+    background-color: #c4beca;
+}
+
+input {
+    outline: none;
+    font-size: 18px;
+    font-family:'Trebuchet MS';
+    font-weight:bold;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    height:50px;
+    cursor: pointer;
+    background-color:#c2bcbc;
+    width: 450px;
+}
+
+
+.InputSection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    width: 75%;
+    background-color:#04005;
+    background-image:url('https://pexels.com/photos/1125265/pexels-photo-1125265.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.kalkulasi {
+    display:flex;
+    flex-direction:column;
+    padding: 30px;
+}
+
+#rumus {
+    font-size:larger;
+    margin: 50px;
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+    text-shadow: 5px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction:row;
+    align-self: center;
+    background-color: solid #CFB495;
+}
+
+.copyrights {
+    padding: 20px;
+    text-align:center;
+    color:#ffffff;
+    font-family:'Courier New';
+    background-image: url('https://media.istockphoto.com/id/1253876023/id/foto/percikan-api-dan-abu-naik-di-langit-malam-dari-api-unggun.jpg?s=612x612&w=0&k=20&c=Lb_cHJjVCaWvzqH7PjoGp3dwauCcWitDBflgudzu68E=')
+}
+
+.github {
+    text-align:left; 
+    font-weight:bolder;
+    margin-top: 45%;
+}
