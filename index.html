@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Temperature Converter 2</title>
+    <script src="fungsi.js"></script>
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <h1 class="aa1"><u>Konversi Suhu</u></h1>
+        <p>Masukkan suhu dalam satuan Celsius ke dalam kotak dibawah. <br></p>
+        <p>Lalu, suhu yang dimasukkan dalam satuan Celsius akan dikoversikan kedalam satuan Fahrenheit.</p>
+
+    </header>
+
+    <section class="InputSection">
+
+        <!--Ranah input section!-->
+
+        <div class="kalkulasi">
+        <label for="InputField"; class="label1">Celsius:</label> <br>
+        <input type="number"; id="InputField"; placeholder="Celsius"> <br>
+
+        <div id="buttons">
+        <button onclick="convert()"> Conversion </button>
+        <button onclick="reset()"> Reset </button>
+        <button onclick="reverse()"> Reverse </button>
+        </div> <br>
+
+        <label for="InputField2"; class="label1">Fahrenheit:</label> <br>
+        <input type="number"; id="InputField2"; placeholder="Fahrenheit" readonly> <br>
+
+        <label for="InputField2"; class="label1">Proses perhitungan:</label> <br>
+        <input type="text"; id="InputField3"; placeholder="Fahrenheit = (Suhu dalam satuan celsius * 1.8) + 32" readonly> <br>
+        </div>
+    
+        <!--Ranah input section!-->
+
+    </section> 
+
+    <footer class="copyrights">
+
+        <p>Nama Fahrenheit diambil dari ilmuwan Jerman, Gabriel Fahrenheit (1686-1736).</p>
+        <p>Sedangkan nama Celsius diambil dari nama Anders Celsius.</p> <br> <br>
+        <h1 style="font-family:monospace;"><u>Metode Kalkulasi:</u></h1>
+        <p> °F = (°C * 1.8) + 32 </p>
+        <p> atau</p>
+        <p> °C = (°F - 32) * 5/9</p>
+            
+        <p class="github">premiummayonaisse, 2023 all rights reserved</p>
+        
+        
+    </footer>
+
+</body>
+</html>
